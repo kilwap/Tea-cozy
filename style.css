@@ -1,0 +1,50 @@
+html{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header{
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left:10px;
+}
+.menu{
+    display: inline-flex;
+    text-align: right;
+    text-decoration: underline;
+    justify-content: flex-end;
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: auto;
+}
+.menu{
+    margin-right: 20px;
+}
+.mission{
+    display: flex;
+    background-image: url("imgaes\img-mission-background.webp");
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 700px;
+}
