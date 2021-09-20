@@ -57,4 +57,33 @@ main{
 }
 .mission_text h4, h2{
     margin: 10px 0;
+}.monthly{
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.monthly_text{
+    width: 1000px;
+}
+.first_row{
+    display: flex;
+    justify-content: space-between;
+}
+.second_row{
+    display: flex;
+    justify-content: center;
+}
+.photo{
+    max-width: 300px;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+.monthly_tea h4{
+    margin: 0;
+}
+.monthly_tea{
+    margin: 0px 10px 20px 10px;
 }
