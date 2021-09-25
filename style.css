@@ -87,3 +87,21 @@ main{
 .monthly_tea{
     margin: 0px 10px 20px 10px;
 }
+.locations{
+    height: 500px;
+    width: 1200px;
+    background-image: url("../Tea\ cozy/imgaes/img-locations-background.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.location{
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+}
+.locations h2{
+    width: 1200px;
+    margin-bottom: 0;
+}
