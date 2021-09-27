@@ -17,7 +17,11 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-
+.flex-item{
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+}
 .logo{
     margin-left:10px;
     height: 50px;
@@ -27,19 +31,19 @@ header{
     display: inline-flex;
     margin: 10px;
 }
-.menu p{
-    margin: 0 10px;
+a{
+    color: seashell;
+    margin: 0 10px
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 69px;
-    margin: 0 20px;
+    margin: 69px 20px 0 20px;
 }
 
-.mission{
+#mission{
     width: 1200px;
     height: 700px;
     background-color:  #cccccc;
@@ -57,9 +61,10 @@ main{
 }
 .mission_text h4, h2{
     margin: 10px 0;
-}.monthly{
+}
+#monthly{
     display: flex;
-    max-width: 1000px;
+    width: 1000px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -69,8 +74,8 @@ main{
     width: 1000px;
 }
 .photo{
-    max-width: 300px;
-    max-height: 200px;
+    width: 300px;
+    height: 200px;
     margin-bottom: 10px;
 }
 .monthly_tea h4{
@@ -79,7 +84,7 @@ main{
 .monthly_tea{
     margin: 0px 10px 20px 10px;
 }
-.locations{
+#locations{
     height: 500px;
     width: 1200px;
     background-image: url("../Tea\ cozy/imgaes/img-locations-background.webp");
